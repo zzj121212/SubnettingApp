@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180F50AA2ABD1C1400841664 /* NetAddDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F50A92ABD1C1400841664 /* NetAddDisplayViewController.swift */; };
 		1889EF972AB8705100A0EEF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889EF962AB8705100A0EEF1 /* AppDelegate.swift */; };
 		1889EF992AB8705100A0EEF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889EF982AB8705100A0EEF1 /* ViewController.swift */; };
 		1889EF9B2AB8705400A0EEF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1889EF9A2AB8705400A0EEF1 /* Assets.xcassets */; };
@@ -14,6 +15,12 @@
 		1889EFA92AB8705500A0EEF1 /* SubnettingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889EFA82AB8705500A0EEF1 /* SubnettingAppTests.swift */; };
 		1889EFB32AB8705500A0EEF1 /* SubnettingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889EFB22AB8705500A0EEF1 /* SubnettingAppUITests.swift */; };
 		1889EFB52AB8705500A0EEF1 /* SubnettingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889EFB42AB8705500A0EEF1 /* SubnettingAppUITestsLaunchTests.swift */; };
+		1889EFC22AB870C900A0EEF1 /* subnetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889EFC12AB870C900A0EEF1 /* subnetting.swift */; };
+		18A409FF2ABC16C500B4782B /* NetAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A409FE2ABC16C500B4782B /* NetAddViewController.swift */; };
+		18A40A012ABC1D1E00B4782B /* subMaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A40A002ABC1D1E00B4782B /* subMaskViewController.swift */; };
+		18A40A032ABC476100B4782B /* SubNetting1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A40A022ABC476100B4782B /* SubNetting1ViewController.swift */; };
+		18A40A052ABC593500B4782B /* SubNetting2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A40A042ABC593500B4782B /* SubNetting2ViewController.swift */; };
+		18A40A072ABC5A7600B4782B /* SubNetting3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A40A062ABC5A7600B4782B /* SubNetting3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180F50A92ABD1C1400841664 /* NetAddDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetAddDisplayViewController.swift; sourceTree = "<group>"; };
 		1889EF932AB8705100A0EEF1 /* SubnettingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubnettingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1889EF962AB8705100A0EEF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1889EF982AB8705100A0EEF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +53,12 @@
 		1889EFAE2AB8705500A0EEF1 /* SubnettingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubnettingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1889EFB22AB8705500A0EEF1 /* SubnettingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubnettingAppUITests.swift; sourceTree = "<group>"; };
 		1889EFB42AB8705500A0EEF1 /* SubnettingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubnettingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1889EFC12AB870C900A0EEF1 /* subnetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subnetting.swift; sourceTree = "<group>"; tabWidth = 4; };
+		18A409FE2ABC16C500B4782B /* NetAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetAddViewController.swift; sourceTree = "<group>"; };
+		18A40A002ABC1D1E00B4782B /* subMaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subMaskViewController.swift; sourceTree = "<group>"; };
+		18A40A022ABC476100B4782B /* SubNetting1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubNetting1ViewController.swift; sourceTree = "<group>"; };
+		18A40A042ABC593500B4782B /* SubNetting2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubNetting2ViewController.swift; sourceTree = "<group>"; };
+		18A40A062ABC5A7600B4782B /* SubNetting3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubNetting3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +111,15 @@
 			children = (
 				1889EF962AB8705100A0EEF1 /* AppDelegate.swift */,
 				1889EF982AB8705100A0EEF1 /* ViewController.swift */,
+				1889EFC12AB870C900A0EEF1 /* subnetting.swift */,
 				1889EF9A2AB8705400A0EEF1 /* Assets.xcassets */,
 				1889EF9C2AB8705400A0EEF1 /* Main.storyboard */,
+				180F50A92ABD1C1400841664 /* NetAddDisplayViewController.swift */,
+				18A40A022ABC476100B4782B /* SubNetting1ViewController.swift */,
+				18A40A042ABC593500B4782B /* SubNetting2ViewController.swift */,
+				18A40A062ABC5A7600B4782B /* SubNetting3ViewController.swift */,
+				18A40A002ABC1D1E00B4782B /* subMaskViewController.swift */,
+				18A409FE2ABC16C500B4782B /* NetAddViewController.swift */,
 				1889EF9F2AB8705500A0EEF1 /* SubnettingApp.entitlements */,
 			);
 			path = SubnettingApp;
@@ -251,8 +272,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A40A012ABC1D1E00B4782B /* subMaskViewController.swift in Sources */,
+				18A40A052ABC593500B4782B /* SubNetting2ViewController.swift in Sources */,
+				18A409FF2ABC16C500B4782B /* NetAddViewController.swift in Sources */,
 				1889EF992AB8705100A0EEF1 /* ViewController.swift in Sources */,
 				1889EF972AB8705100A0EEF1 /* AppDelegate.swift in Sources */,
+				180F50AA2ABD1C1400841664 /* NetAddDisplayViewController.swift in Sources */,
+				1889EFC22AB870C900A0EEF1 /* subnetting.swift in Sources */,
+				18A40A032ABC476100B4782B /* SubNetting1ViewController.swift in Sources */,
+				18A40A072ABC5A7600B4782B /* SubNetting3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
